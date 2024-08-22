@@ -1,0 +1,130 @@
+/* styles.css */
+
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+ /*nadpis misafir*/
+h1 {
+    margin: 30px 0 10px;
+    color: #f7e702;
+    font-family: 'Pacifico', cursive;
+}
+
+/*home menu etc alignm*/
+nav {
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#Misafir {
+    background: url('IndWomen.jpg') center/cover no-repeat;
+    background-size: 100% 100vh;
+    padding: 40px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Misafir h1 {
+    font-size: 160px;
+    font-family: 'Pacifico', cursive;
+}
+/*menu items names in the container align*/
+section {
+    margin-bottom: -1px;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-container {
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+
+.menu-item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#contact {
+    background-color: #fdfdfd;
+    padding: 40px;
+    overflow: hidden; 
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-text {
+    width: 70%; /* Adjust the width of the text content */
+}
+
+.contact-image img {
+    width: 70%; /* Adjust the width of the image */
+    max-width: 100%; 
+    border-radius: 8px; 
+}
+
+
+
+
+
+#about {
+    margin-bottom: 100px;
+    background-color: #bababa;
+    overflow: hidden; /* Clear floats within the about section */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.about-image img {
+    width: 50%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure the image does not exceed its original size */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+.about-text {
+    width: 40%; /* Adjust the width of the text content */
+}
+
+
